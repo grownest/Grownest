@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Grow Nest</title>
+  <defs>
+    <style>
+      .logo-text {
+        font-family: 'Inter', 'SF Pro Display', system-ui, -apple-system, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        fill: currentColor;
+      }
+      .logo-bold {
+        font-weight: 700;
+      }
+      .logo-accent {
+        fill: #FF9F1C;
+      }
+    </style>
+  </defs>
+  
+  <!-- Grow text -->
+  <text x="8" y="28" class="logo-text" font-size="22">
+    <tspan class="logo-bold">G</tspan>row
+  </text>
+  
+  <!-- Nest text -->
+  <text x="84" y="28" class="logo-text" font-size="22">
+    <tspan class="logo-bold">N</tspan>est
+  </text>
+  
+  <!-- Accent dot/leaf mark -->
+  <circle cx="152" cy="24" r="3" class="logo-accent"/>
+  <path d="M150 22 L154 20 L152 24 Z" class="logo-accent" opacity="0.8"/>
+</svg>
